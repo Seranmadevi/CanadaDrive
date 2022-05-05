@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 238.421 s <<< FAILURE! - in TestSuite
+canadadrive.SmokeFlow.sampleFlow  Time elapsed: 75.325 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']' (tried for 20 second(s) with 500 milliseconds interval)
+	at canadadrive.SmokeFlow.sampleFlow(SmokeFlow.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-8KFKMLI', ip: '192.168.29.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SERANM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49802}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57ca675f9716e8d53eced2c2708985d4
+*** Element info: {Using=xpath, value=//div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']}
+	at canadadrive.SmokeFlow.sampleFlow(SmokeFlow.java:24)
+
+canadadrive.SmokeFlow.sampleFlow  Time elapsed: 76.101 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']' (tried for 20 second(s) with 500 milliseconds interval)
+	at canadadrive.SmokeFlow.sampleFlow(SmokeFlow.java:24)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-8KFKMLI', ip: '192.168.29.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\SERANM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49987}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 741d2c145895fa4504a2d4b1dcf1a924
+*** Element info: {Using=xpath, value=//div[@class='desktop-start-purchase-column d-block py-0 pl-0 col col-auto']}
+	at canadadrive.SmokeFlow.sampleFlow(SmokeFlow.java:24)
+

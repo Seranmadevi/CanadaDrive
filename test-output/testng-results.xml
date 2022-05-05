@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-06T14:26:08 IST" name="Default suite" finished-at="2022-03-06T14:27:31 IST" duration-ms="83224">
+    <groups>
+    </groups>
+    <test started-at="2022-03-06T14:26:08 IST" name="Default test" finished-at="2022-03-06T14:27:31 IST" duration-ms="83224">
+      <class name="canadadrive.SmokeFlow">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:26:08 IST" name="beforeSuite" finished-at="2022-03-06T14:26:08 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="driverlaunch()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:26:08 IST" name="driverlaunch" finished-at="2022-03-06T14:26:58 IST" duration-ms="49734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverlaunch -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:26:58 IST" name="beforeClass" finished-at="2022-03-06T14:26:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="sampleFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:26:58 IST" name="sampleFlow" data-provider="SampleData" finished-at="2022-03-06T14:27:27 IST" duration-ms="29160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[48 Months]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleFlow -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:27:27 IST" name="getResult" finished-at="2022-03-06T14:27:27 IST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleFlow status=SUCCESS method=SmokeFlow.sampleFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:canadadrive.SmokeFlow@593aaf41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:27:27 IST" name="afterClass" finished-at="2022-03-06T14:27:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:27:27 IST" name="driverclose" finished-at="2022-03-06T14:27:31 IST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:canadadrive.SmokeFlow@593aaf41]" started-at="2022-03-06T14:27:31 IST" name="afterSuite" finished-at="2022-03-06T14:27:32 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- canadadrive.SmokeFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

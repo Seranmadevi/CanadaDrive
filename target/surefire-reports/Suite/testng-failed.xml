@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="SampleTest(failed)" verbose="0">
+    <classes>
+      <class name="canadadrive.SmokeFlow">
+        <methods>
+          <include name="sampleFlow" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="driverlaunch"/>
+          <include name="getResult"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- canadadrive.SmokeFlow -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+  <test thread-count="5" name="SampleTest2(failed)" verbose="0">
+    <classes>
+      <class name="canadadrive.SmokeFlow">
+        <methods>
+          <include name="sampleFlow" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="driverlaunch"/>
+          <include name="getResult"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- canadadrive.SmokeFlow -->
+    </classes>
+  </test> <!-- SampleTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
